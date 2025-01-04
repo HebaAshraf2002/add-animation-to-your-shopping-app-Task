@@ -74,7 +74,6 @@ class _SignupState extends State<Signup> with SingleTickerProviderStateMixin {
                 key: _formKey,
                 child: ListView(
                     shrinkWrap: true,
-                    //physics: NeverScrollableScrollPhysics(),
                     children: [
                       Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -231,7 +230,6 @@ class _SignupState extends State<Signup> with SingleTickerProviderStateMixin {
               child: const Text("OK",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
               onPressed: () {
-                // Navigator.of(context).pop();
                 _onCloseDialog();
               },
             ),
