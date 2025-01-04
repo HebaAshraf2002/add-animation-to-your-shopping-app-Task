@@ -3,8 +3,8 @@
  add an animation after clicking the close button in the dialog after signing up successfully that makes the sign up page fade out and the shopping page fades in.
  # What This Code Does ?
 - The code incorporates animations to:
-  1. Fade in the entire signup page when it loads.
-  2.Fade out the success dialog and smoothly transition to the homepage upon signup completion.
+1. Fade in the entire signup page when it loads.
+2.Fade out the success dialog and smoothly transition to the homepage upon signup completion.
 # How the Code Works ?
 1. Animation Initialization
  - The Signup class state includes SingleTickerProviderStateMixin to enable animation control.
